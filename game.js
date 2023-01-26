@@ -8,7 +8,7 @@ $(document).keydown(function () {
   if (!gameRunning) {
     $("#level-title").text("Level " + level);
     nextSequence();
-    started = true;
+    gameRunning = true;
   }
 });
 
